@@ -1,0 +1,101 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    border-radius: 16px;
+    margin:50px 30px 80px 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:200px;background-image:rgba(17, 16, 16, 0.5);
+    background-image: url("image/banner.png");
+    
+    background-position:center,right top;
+    background-size: cover;
+   
+
+}
+.nav h3{
+      font-size:35px ;
+      margin: bottom 38px;
+      color: rgb(13, 5, 88);
+}
+.nav h1{
+    font-weight: bolder;
+    color: rgb(2, 31, 63);
+    font-size:60px;
+}
+main .part1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+}
+main .part1 h1{
+    color: red;
+    margin-bottom:45px;
+    font-size:70px ;
+    font-family: 'Roboto', sans-serif;
+}
+main .part1 p{
+    color: red;
+    margin-bottom:10px;
+    font-size:19px ;
+    
+}
+main .part1 h2{
+    
+    margin-bottom:25px;
+    font-size:38px ;
+    
+}
+main .part1 img{
+    
+    margin-bottom:25px;
+  
+    
+}
+main .part2{
+    border-radius:16px;
+    color: aliceblue;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/victory.png");
+    background-size:cover;
+    background-position:center;
+    margin:20px 30px 20px 100px;
+}
+main .part2 .d1{
+    width: 60%;
+    padding: 4%;
+}
+main .part2 .d2{
+    width: 40%;
+    padding:4%;
+}
+main .part2 h1{
+    font-size:50px;
+    margin-bottom:20px;
+    
+}
+main .part2 p{
+    font-size:20px;
+    margin-bottom:20px;
+    
+}
+main .part2 button{
+   font-size:20px;
+   background-color: transparent;
+   color: aliceblue;
+   border: 0px;
+   padding:12px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: crimson;
+    border-radius: 16px;
+}
