@@ -99,3 +99,30 @@ main .part2 button{
     color: crimson;
     border-radius: 16px;
 }
+main .part3{
+    margin:30px 30px 30px 100px;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:80px;
+    background-color:rgb(245, 217, 248);
+}
+main .part3 h2{
+    margin-bottom:5px;
+}
+main .part3 span{
+    color: rgb(240, 32, 32);
+}
+.btn1{
+    margin-top: 5px;
+    padding:10px;
+    border:0px;
+    border-radius:8px;
+    background-color: crimson;
+    color: aliceblue;
+}
+.btn1:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+}
