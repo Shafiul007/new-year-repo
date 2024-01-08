@@ -126,3 +126,214 @@ main .part3 span{
     background-color: aquamarine;
     color: blueviolet;
 }
+main .part4{
+    margin:60px 30px 30px 100px;
+    padding:60px;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: space-around;
+    align-items:center;
+    display: flex;
+}
+.part4 .dleft{
+    text-align: left;
+    width: 33%;
+    
+}
+.part4 .dleft h5{
+   font-size: 20px;
+   margin-bottom:18px;
+   color:red;
+    
+}
+.part4 .dleft h1{
+   font-size: 40px;
+   margin-bottom:20px;
+    
+}
+.part4 .dleft p{
+     color: grey;
+     font-weight: lighter;
+    
+}
+.part4 .dmid{
+    text-align: center;
+    width: 33%;
+    
+}
+.part4 .dright h1{
+    font-size:45px;
+    color: red;
+    margin-bottom: 25px;
+    
+}
+.part4 .dright p{
+    
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: 400;
+}
+.part4 .dright{
+    padding:20px 10px 10px 10px;
+    text-align:left;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    
+}
+.part4 .dmid img{
+    border-radius:50%;
+    outline: 10px solid red;
+    outline-offset:20px;
+    text-align: left;
+    
+}
+main .part5{
+    text-align: center;
+    justify-content: center;
+    padding:30px;
+    margin:0px 100px 30px 100px;
+}
+main .part5 h4{
+    margin-bottom:20px;
+}
+main .part5 h1{
+    margin-bottom:20px;
+    font-size: 50px;
+    font-family: 'Salsa', cursive;
+}
+main .part5 p{
+  padding:0px 100px 5px 100px;
+  margin-bottom: 40px;
+}
+main .part5 h1 span{
+    color:red;
+}
+main .part5 .img .im1{
+    display: flex;
+}
+main .part6{
+    padding:10px;
+    margin:30px 90px 30px 100px;
+    text-align: left;
+    justify-content: center;
+    align-items:center;
+}
+main .part6:hover{
+    border-radius:10px;
+    box-shadow:5px 5px 5px grey,-5px -5px 5px grey;
+}
+main .part2:hover{
+    border-radius:10px;
+    box-shadow:5px 5px 5px grey,-5px -5px 5px grey;
+}
+main .part3:hover{
+    border-radius:10px;
+    box-shadow:5px 5px 5px grey,-5px -5px 5px grey;
+}
+main .part4:hover{
+    border-radius:10px;
+    box-shadow:5px 5px 5px grey,-5px -5px 5px grey;
+}
+
+main .part6 h3{
+    color:red;
+    margin-bottom:20px;
+}
+main .part6 h1{
+    margin-bottom:20px;
+    font-size:40px;
+}
+main .part6 p{
+    margin-bottom:20px;
+    
+}
+
+main .part6 .img img{
+    width:30%;
+    margin:10px;
+    border-radius:10px;
+    
+}
+main .part6 .img img:hover{
+    box-shadow:5px 5px 5px black,-5px -5px 5px black;
+}
+main .part7{
+    margin:20px 100px;
+    padding:40px 200px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(238, 201, 230);
+}
+main .part7 img{
+    margin-bottom:20px;
+}
+main .part7 h1{
+    font-size:40px;
+    margin-bottom: 15px;
+}
+main .part7 p{
+    
+    margin-bottom: 18px;
+}
+main .part7:hover{
+    box-shadow:5px 5px 5px black,-5px -5px 5px black;
+}
+main .part7 input{
+    width:60%;
+    padding:8px;
+    border: 0px;
+    background-color: aliceblue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+main .part7 button{
+    margin-left:0px;
+    padding:8px;
+    background-color: rgb(255, 0, 51);
+    color: aliceblue;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+main .part7 button:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+footer{
+    margin:50px 0px 0px 0px;
+    padding: 100px;
+    background-color:black;
+    color:antiquewhite;
+}
+footer .footer1{
+    display: flex;
+    text-align: left;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom:20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+
+}   
+footer .img{
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom:1px solid grey;
+}
+footer .img img{
+    width:30px;
+    margin-right: 10px;
+}
+footer .lfoot{
+    display: flex;
+    padding-top:40px;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
