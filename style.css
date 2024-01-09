@@ -11,12 +11,9 @@
     justify-content: center;
     align-items: center;
     padding:200px;
-    background-image: url("image/banner.png");
-    filter: brightness(80%);
+    background-image:url("image/banner.png");
     background-position:center,right top;
     background-size: cover;
-   
-
 }
 .nav h3{
       font-size:35px ;
@@ -104,6 +101,7 @@ main .part2 button{
     color: crimson;
     border-radius: 16px;
 }
+
 main .part3{
     margin:30px 30px 30px 100px;
     border-radius: 16px;
@@ -131,6 +129,7 @@ main .part3 span{
     background-color: aquamarine;
     color: blueviolet;
 }
+
 main .part4{
     margin:60px 30px 30px 100px;
     padding:60px;
@@ -331,7 +330,6 @@ main .part7 input{
     border-bottom-left-radius: 15px;
 }
 main .part7 button{
-    margin-left:0px;
     padding:8px;
     background-color: rgb(255, 0, 51);
     color: aliceblue;
