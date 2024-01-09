@@ -111,7 +111,7 @@ main .part3{
     justify-content: center;
     align-items: center;
     padding:80px;
-    background:linear-gradient(rgb(172, 255, 197),white);
+    background:linear-gradient(rgba(172, 255, 197,0.7),white);
 }
 main .part3 h2{
     margin-bottom:5px;
@@ -139,7 +139,7 @@ main .part4{
     justify-content: space-around;
     align-items:center;
     display: flex;
-    background: linear-gradient(rgb(151, 232, 235),white);
+    background: linear-gradient(rgba(151, 232, 235,0.10),white);
 }
 .part4 .dleft{
     text-align: left;
@@ -304,7 +304,9 @@ main .part7{
     text-align:center;
     justify-content:center;
     align-items:center;
-    background: linear-gradient(rgb(255, 196, 255),white);
+    background: rgba(255, 0, 0, 0.05);
+
+    
 }
 main .part7 img{
     margin-bottom:20px;
