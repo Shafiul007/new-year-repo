@@ -745,9 +745,8 @@ footer .footer1 .f1,.f2{
         margin-bottom: 10px;
         border-bottom:1px solid grey;
     }
-    footer .img img{
-        width:14px;
-        margin-right: 10px;
+    footer .footer1 img{
+        width:10%;
     }
     footer .lfoot{
         display: flex;
